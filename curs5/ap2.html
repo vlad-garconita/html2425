@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div img{
+            width: 100%; 
+            max-width: 600px;
+            margin: auto;
+        }
+        @media screen AND (max-width: 360px){
+            h1{
+                color: red;
+            }
+            .desk, .lap, .tab{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 361px) and (max-width:768px){
+               h1{
+                color: blue;
+               }
+               .lap, .desk, .mob{
+                display: none;
+               }
+        }
+
+        @media screen AND (min-width: 769px) and (max-width:1240px){
+                h1{
+                    color: green;
+                }
+                .desk, .mob, .tab{
+                    display: none;
+                }
+        }
+        
+        @media screen and (min-width:1241px){
+                h1{
+                    color: aqua;
+                }
+                .lap, .mob, .tab{
+                    display: none   ;
+                }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="desk">
+        <h1>Suntem pe desktop</h1>
+        <img src="./poze/car-hd-2011.jpg" alt="desktop">
+    </div>
+    <div class="lap">
+        <h1>Suntem pe laptop </h1>
+        <img src="./poze/download.jpeg" alt="laptop">
+    </div>
+    <div class="tab">
+        <h1>suntem pe tableta</h1>
+        <img src="./poze/ford_mustang_car_215784.jpg" alt="tableta">
+    </div>
+    <div class="mob">
+        <h1>suntem pe mobile</h1>
+        <img src="./poze/sportscar_car_sports_266635.jpg" alt="mobil">
+    </div>
+
+</body>
+</html>
