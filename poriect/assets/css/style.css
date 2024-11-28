@@ -36,6 +36,9 @@ nav ul li a{
 font-size: 30px;
 color: white;
 text-decoration: none;
+font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
 
 }
 
@@ -69,4 +72,18 @@ text-decoration: none;
 
 #foto img.foto{
     margin: 20px;
+}
+
+@font-face {
+    font-family: 'Sevillana';
+    src: url('../fonts/Sevillana-Regular.eot');
+    src: local('Sevillana'), local('Sevillana-Regular'),
+        url('../fonts/Sevillana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sevillana-Regular.woff2') format('woff2'),
+        url('../fonts/Sevillana-Regular.woff') format('woff'),
+        url('../fonts/Sevillana-Regular.ttf') format('truetype'),
+        url('../fonts/Sevillana-Regular.svg#Sevillana-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
