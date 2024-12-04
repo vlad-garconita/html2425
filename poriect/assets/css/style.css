@@ -87,3 +87,56 @@ font-family: "Sevillana", cursive;
     font-style: normal;
     font-display: swap;
 }
+
+/* START CONTACT */
+
+.pagina-contact{
+    background-color: rgb(189, 159, 245);
+}
+.titlu-formular{
+    text-align: center;
+    margin: auto;
+    
+}
+.formular{
+    color: rgb(255, 255, 255);
+     margin: auto;
+     background-color: rgb(22, 123, 160);
+     margin: 0 800px;
+     padding: 100px 200px;
+     text-align: center;
+     font-family: 'Sevillana';
+    src: url('../fonts/Sevillana-Regular.eot');
+    src: local('Sevillana'), local('Sevillana-Regular'),
+        url('../fonts/Sevillana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sevillana-Regular.woff2') format('woff2'),
+        url('../fonts/Sevillana-Regular.woff') format('woff'),
+        url('../fonts/Sevillana-Regular.ttf') format('truetype'),
+        url('../fonts/Sevillana-Regular.svg#Sevillana-Regular') format('svg');
+    font-weight: 30px;
+    font-style: normal;
+    font-display: swap;
+    font-size: 30px;
+    
+    
+    
+    
+}
+
+.formular fieldset{
+    width: 250px;
+    margin-left: -60px;
+}
+
+.formular div{
+    margin: 20px;
+}
+
+/* STOP CONTACT */
+
+/* GENERAL */
+
+.titlu{
+    color: aqua;
+
+}

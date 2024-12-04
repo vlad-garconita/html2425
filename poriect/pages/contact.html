@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proiect PMS: HTML + CSS</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link rel="icon" type="image/png" href="../assets/images/favicon (1)/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon (1)/favicon.svg" />
+    <link rel="shortcut icon" href="../assets/images/favicon (1)/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="../assets/images/site.webmanifest" />
+
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vlad Garconita">
+</head>
+
+<body   class="pagina-contact">
+    <!-- START HEADER -->
+
+    <header>
+        <div class="logo">
+            <img id="logo" src="../assets/images/download.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Acasa</a></li>
+                <li><a href="portofoliu.html">Portofoliu</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="despre.html">Despre noi</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- STOP HEADER -->
+    <main>
+        <h1>Pagina Contact</h1>
+
+        <h1 class="titlu-formular">Formular contact</h1>
+        <form action="" method="post" class="formular">
+            <div>
+                <label for="">Orasul</label>
+                <select name="oras" id="">
+                    <option value="1">Bucuresti</option>
+                    <option value="2">Cluj</option>
+                    <option value="3">Iasi</option>
+                    <option value="4">Oradea</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Cursuri</label>
+                <select name="Cursuri[]" id="" multiple>
+                    <option value="css">CSS</option>
+                    <option value="html">HTML</option>
+                    <option value="js">JavaScript</option>
+                    <option value="vue">VueJs</option>
+                    <option value="node">NodeJs</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="">Mesaj</label>
+                <textarea name="mesaj" id=""></textarea>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Program cursuri</legend>
+                    <input type="radio" name="program" id="" value="dimineata">
+                    <label for="">dimineata</label>
+                    <input type="radio" name="program" id="" value="pranz" checked>
+                    <label for="">pranz</label>
+                    <input type="radio" name="program" id="" value="seara" disabled>
+                    <label for="">seara</label>
+                </fieldset>
+            </div>
+            <div>
+                <button type="submit">Trimite date</button>
+            </div>
+        </form>
+
+    </main>
+
+
+</body>
+
+</html>
